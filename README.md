@@ -21,4 +21,10 @@ pip install -r requirements.txt
 
 이후 데이터 베이스 정규화 / 비정규화 진행 후 각각 성능 비교
 
+mysql -u root -ptest1234 -e "DROP DATABASE IF EXISTS shipment; CREATE DATABASE shipment;"
 
+mysql -u root -ptest1234 shipment < schema/01_schema_ddl.sql
+
+mysql -u root -ptest1234 shipment < schema/02_seed_data.sql
+
+mysql -u root -ptest1234 shipment < schema/02_seed_data.sql
