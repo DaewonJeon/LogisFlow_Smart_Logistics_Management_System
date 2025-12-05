@@ -20,4 +20,5 @@ mysql -u root -ptest1234 shipment < schema/02_seed_data.sql
 
 
 ## 2025_12_05
+mysql -u root -p shipment < shipment_backup.sql
 
