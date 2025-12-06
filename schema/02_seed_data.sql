@@ -2,6 +2,7 @@
 -- Git V1.1 - 초기 시드 데이터 (DML)
 -- 이 데이터는 Python Faker 스크립트가 실행되기 전의 기준선 역할을 합니다.
 -- =================================================================
+SET NAMES utf8mb4;
 
 -- 1. 고객사 데이터
 INSERT INTO companies (company_id, company_name) VALUES
