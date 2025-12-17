@@ -9,7 +9,15 @@ import threading
 db_config = {
     'host': 'localhost',
     'user': 'postgres',      # 기본 계정 (필요 시 수정)
+<<<<<<< HEAD
     'password': '',  # ★ 비밀번호 입력 ★
+=======
+<<<<<<< HEAD
+    'password': 'test1234',  # ★ 비밀번호 입력 ★
+=======
+    'password': '',  # ★ 비밀번호 입력 ★
+>>>>>>> e7fe835a6f92af88c8b8c601ea94c9d2d1a4dd7b
+>>>>>>> 7ae91fd021e7e4ab703d428f14f07cc8c0a4fb3c
     'dbname': 'shipment',    # DB 이름
 }
 

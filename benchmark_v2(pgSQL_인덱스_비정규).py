@@ -9,7 +9,15 @@ import threading
 db_config = {
     'host': 'localhost',
     'user': 'postgres',      # PostgreSQL 기본 유저는 보통 'postgres' 입니다.
+<<<<<<< HEAD
     'password': '',  # ★ 비밀번호 확인 ★
+=======
+<<<<<<< HEAD
+    'password': 'test1234',  # ★ 비밀번호 확인 ★
+=======
+    'password': '',  # ★ 비밀번호 확인 ★
+>>>>>>> e7fe835a6f92af88c8b8c601ea94c9d2d1a4dd7b
+>>>>>>> 7ae91fd021e7e4ab703d428f14f07cc8c0a4fb3c
     'dbname': 'shipment',    # MySQL의 'db' 키 대신 'dbname'을 사용합니다.
 }
 
